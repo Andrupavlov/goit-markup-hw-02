@@ -1,0 +1,101 @@
+/* цвет заголовка #212121 */
+/* цвет большего количества текста #757575 */
+/* акцентный цвет (синий) #2196F3 */
+/* цвет фона #FFFFFF */
+/* 2й цвет фона #F5F4FA */
+/* цвет футера и фон заголовка #2F303A */
+
+
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --ascent-color: #2196F3;
+    --background-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--title-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* логотип */
+
+.logo {
+    /* общие настройки лого */
+}
+
+.logo-1part {
+    color: var(--ascent-color);
+}
+
+.logo-2part {
+    color: var(--title-text-color);
+}
+
+
+/* список меню */
+
+.site-nav a {
+    color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--ascent-color);
+}
+
+
+/* контакты */
+
+.email {
+    color: var(--primary-text-color);
+}
+
+.email:hover {
+    color: var(--ascent-color);
+}
+
+.tel {
+    color: var(--primary-text-color);
+}
+
+.tel:hover {
+    color: var(--ascent-color);
+}
+
+
+/* герой */
+
+.hero {}
+
+.hero-title {}
+
+
+/* все секции */
+
+.section {
+    color: var(--primary-text-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+
+/* имена сотрудников */
+.title-name {
+    color: var(--title-text-color);
+}
+
+
+.geo-address {}
