@@ -8,6 +8,7 @@
 :root {
     --title-text-color: #212121;
     --primary-text-color: #757575;
+    --white-text: #FFFFFF;
     --ascent-color: #2196F3;
     --background-color: #FFFFFF;
 }
@@ -18,18 +19,20 @@ body {
     color: var(--title-text-color);
 }
 
+/* Удаление точек у спсиков */
 .list {
     list-style: none;
 }
 
 
-/* логотип */
+/* Логотип */
 
+/* Общие настройки лого */
 .logo {
-    /* общие настройки лого */
     text-decoration: none;
 }
 
+/* 1й фрагмент лого (по цвету) */
 .logo-1part {
     color: var(--ascent-color);
 
@@ -41,6 +44,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* 2й фрагмент лого (по цвету) */
 .logo-2part {
     color: var(--title-text-color);
 
@@ -55,6 +59,7 @@ body {
 
 /* список меню */
 
+/* Навигация по сайту */
 .site-nav a {
     color: var(--title-text-color);
 
@@ -67,6 +72,7 @@ body {
     text-decoration: none;
 }
 
+/* Навигация по сайту - при наведении */
 .site-nav a:hover,
 .site-nav a:focus {
     color: var(--ascent-color);
@@ -83,6 +89,7 @@ body {
 
 /* контакты */
 
+/* Почта */
 .email {
     color: var(--primary-text-color);
 
@@ -95,7 +102,9 @@ body {
     text-decoration: none;
 }
 
-.email:hover {
+/* Почта - при наведении */
+.email:hover,
+.email:focus {
     color: var(--ascent-color);
 
     font-style: normal;
@@ -107,6 +116,7 @@ body {
     text-decoration: none;
 }
 
+/* Телефон */
 .tel {
     color: var(--primary-text-color);
 
@@ -119,7 +129,9 @@ body {
     text-decoration: none;
 }
 
-.tel:hover {
+/* Телефон - при наведении */
+.tel:hover,
+.tel:focus {
     color: var(--ascent-color);
 
     font-style: normal;
@@ -133,9 +145,9 @@ body {
 
 
 /* герой */
-
 .hero {}
 
+/* Герой-заголовок */
 .hero-title {
     font-style: normal;
     font-weight: 900;
@@ -146,7 +158,27 @@ body {
     text-transform: uppercase;
 }
 
+/* Кнопка-герой */
 .hero-button {
+    color: var(--title-text-color);
+    background-color: var(--background-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Кнопка-герой - при наведении */
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--white-text);
+    background-color: var(--ascent-color);
+
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -158,13 +190,12 @@ body {
 }
 
 
-/* все секции */
-
+/* Все секции */
 .section {
     color: var(--primary-text-color);
 }
 
-
+/* Заголовок секции */
 .section-title {
     color: var(--title-text-color);
 
@@ -176,6 +207,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* Список преимуществ */
 .feature-list .title {
     color: var(--title-text-color);
 
@@ -187,6 +219,7 @@ body {
     text-transform: uppercase;
 }
 
+/* Описание преимуществ, каждого типа */
 .feature-list p {
     font-style: normal;
     font-weight: 400;
@@ -208,6 +241,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* должность сотрудника */
 .title-position {
     font-style: normal;
     font-weight: 400;
@@ -217,10 +251,66 @@ body {
     letter-spacing: 0.03em;
 }
 
+
+/* Физический адрес компании */
 .geo-address {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+
+/* Страница портфолио */
+
+/* Кнопки фильтра */
+.filter-button {
+    color: var(--title-text-color);
+    background-color: var(--background-color);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--white-text);
+    background-color: var(--ascent-color);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Список проектов */
+.projects-list {}
+
+/* Заголовок проекта */
+.projects-list .title {
+    color: var(--title-text-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+/* Тип проекта */
+.projects-list p {
+    color: var(--primary-text-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
 }

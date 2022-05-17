@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -46,26 +46,32 @@
     <main>
       <section>
         <h2 hidden>Фильтры для работ</h2>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="list">
+          <li><button class="filter-button" type="button">Все</button></li>
+          <li>
+            <button class="filter-button" type="button">Веб-сайты</button>
+          </li>
+          <li>
+            <button class="filter-button" type="button">Приложения</button>
+          </li>
+          <li><button class="filter-button" type="button">Дизайн</button></li>
+          <li>
+            <button class="filter-button" type="button">Маркетинг</button>
+          </li>
         </ul>
       </section>
 
       <section>
         <!-- невидимый заголовок -->
         <h2 hidden>Список работ</h2>
-        <ul>
+        <ul class="projects-list list">
           <li>
             <img
               src="./images/portfolio/img-0.jpg"
               alt="Веб-сайт для Технокряк"
               width="370"
             />
-            <h3>Технокряк</h3>
+            <h3 class="title">Технокряк</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -74,7 +80,7 @@
               alt="Дизайн постера New Orlean vs Golden Star"
               width="370"
             />
-            <h3>Постер New Orlean vs Golden Star</h3>
+            <h3 class="title">Постер New Orlean vs Golden Star</h3>
             <p>Дизайн</p>
           </li>
           <li>
@@ -83,7 +89,7 @@
               alt="Приложение для ресторана Seafood"
               width="370"
             />
-            <h3>Ресторан Seafood</h3>
+            <h3 class="title">Ресторан Seafood</h3>
             <p>Приложение</p>
           </li>
           <li>
@@ -92,7 +98,7 @@
               alt="Маркетинг для проекта Prime"
               width="370"
             />
-            <h3>Проект Prime</h3>
+            <h3 class="title">Проект Prime</h3>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -101,7 +107,7 @@
               alt="Приложение для проекта Boxes"
               width="370"
             />
-            <h3>Проект Boxes</h3>
+            <h3 class="title">Проект Boxes</h3>
             <p>Приложение</p>
           </li>
           <li>
@@ -110,7 +116,7 @@
               alt="Веб-сайт для Inspiration has no Borders"
               width="370"
             />
-            <h3>Inspiration has no Borders</h3>
+            <h3 class="title">Inspiration has no Borders</h3>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -119,7 +125,7 @@
               alt="Дизайн издания Limited Edition"
               width="370"
             />
-            <h3>Издание Limited Edition</h3>
+            <h3 class="title">Издание Limited Edition</h3>
             <p>Дизайн</p>
           </li>
           <li>
@@ -128,7 +134,7 @@
               alt="Маркетинг для проекта LAB"
               width="370"
             />
-            <h3>Проект LAB</h3>
+            <h3 class="title">Проект LAB</h3>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -137,7 +143,7 @@
               alt="Приложение Growing Business"
               width="370"
             />
-            <h3>Growing Business</h3>
+            <h3 class="title">Growing Business</h3>
             <p>Приложение</p>
           </li>
         </ul>
