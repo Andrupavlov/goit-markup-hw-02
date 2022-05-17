@@ -5,7 +5,6 @@
 /* 2й цвет фона #F5F4FA */
 /* цвет футера и фон заголовка #2F303A */
 
-
 :root {
     --title-text-color: #212121;
     --primary-text-color: #757575;
@@ -14,27 +13,40 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--title-text-color);
 }
 
-ul {
+.list {
     list-style: none;
 }
-
 
 /* логотип */
 
 .logo {
     /* общие настройки лого */
+    text-decoration: none;
 }
 
 .logo-1part {
+    font-family: 'Raleway', sans-serif;
     color: var(--ascent-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
 .logo-2part {
+    font-family: 'Raleway', sans-serif;
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 
 
@@ -42,11 +54,25 @@ ul {
 
 .site-nav a {
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
     color: var(--ascent-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 
@@ -54,18 +80,46 @@ ul {
 
 .email {
     color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .email:hover {
     color: var(--ascent-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .tel {
     color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .tel:hover {
     color: var(--ascent-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 
@@ -73,7 +127,26 @@ ul {
 
 .hero {}
 
-.hero-title {}
+.hero-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
 
 
 /* все секции */
@@ -82,20 +155,60 @@ ul {
     color: var(--primary-text-color);
 }
 
+
 .section-title {
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
-
 
 .feature-list .title {
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-list p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 
 /* имена сотрудников */
 .title-name {
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
+.title-name p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
-.geo-address {}
+.geo-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}

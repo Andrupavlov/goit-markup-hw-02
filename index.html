@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-01</title>
     <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header>
@@ -14,13 +20,13 @@
           <span class="logo-1part">Web</span>
           <span class="logo-2part">Studio</span>
         </a>
-        <ul class="site-nav">
+        <ul class="site-nav list" >
           <li><a href="">Студия</a></li>
           <li><a href="">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
           <a href="mailto:info@devstudio.com" 
             target="_blank"
@@ -40,13 +46,13 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button type="button" class="hero-button">Заказать услугу</button>
       </section>
 
       <section class="section">
         <!-- невидимый заголовок -->
-        <h2 class="section-title">Наши преимущества</h2>
-        <ul class="feature-list">
+        <h2 class="section-title" hidden>Наши преимущества</h2>
+        <ul class="feature-list list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
             <p>
@@ -80,7 +86,7 @@
 
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/what_doing_01.jpg"
@@ -107,7 +113,7 @@
 
       <section class="section">
         <h2 class="section-title">Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/igor_demyanenko.jpg"
@@ -154,7 +160,7 @@
         <span class="logo-2part">Studio</span>
       </a>
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <p class="geo-address">г. Киев, пр-т Леси Украинки, 26</p>
           </li>
